@@ -8,6 +8,7 @@ import { useAppDispatch, useAppSelector } from '../../store';
 
 export default function My() {
 
+  
   const user = useAppSelector((state) => state.user.userInfo);
 
   const dispatch = useAppDispatch();
