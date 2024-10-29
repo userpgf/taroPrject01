@@ -1,8 +1,8 @@
 {
     // 在保存时格式化文件
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "files.autoSave": "onFocusChange",
-    "editor.formatOnType": true,
+    "editor.formatOnType": false,
     "eslint.autoFixOnSave": true,
     "eslint.enable": true,
     // 文件格式化配置
