@@ -133,7 +133,7 @@ const Login = () => {
 
           Taro.setStorageSync('token', wxLoginRes.data.accessToken);
           Taro.switchTab({
-            url: '/pages/login/index',
+            url: '/pages/index/index',
           });
         } else {
           Taro.showToast({
