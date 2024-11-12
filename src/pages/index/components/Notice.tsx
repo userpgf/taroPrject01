@@ -26,7 +26,7 @@ const Notice = ({ noticeList }: NoticeProps) => {
                     }
                 </Swiper>
             </View>
-            <Navigator url='/pages/notice/index' className='right'>
+            <Navigator url='/pages/notice/notice' className='right'>
                 <Text className='icon-right at-icon chevron-right' style={{ fontSize: '16px', color: '#333' }}>
                 </Text>
             </Navigator>

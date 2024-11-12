@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit'
 
 
 type UserInfo = {
+    [x: string]: any;
     avatar: string;
     birthday: string;
     bonus: number;

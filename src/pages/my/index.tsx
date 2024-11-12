@@ -8,7 +8,7 @@ import { useAppDispatch, useAppSelector } from '../../store';
 
 export default function My() {
 
-  
+
   const user = useAppSelector((state) => state.user.userInfo);
 
   const dispatch = useAppDispatch();
@@ -31,7 +31,7 @@ export default function My() {
               icon: 'success',
             });
             Taro.reLaunch({
-              url: '../../pages/login/index.tsx',
+              url: '/pages/login/index',
             });
           } else {
             Taro.showToast({

@@ -12,7 +12,7 @@ export const getNoticeSwiper = () =>{
 export const getIndexNotice = () =>{
     return http<SwiperItem[]>({
         method:'GET',
-        url:'/notice/index'
+        url:'/notice/index',
     })
 }
 
