@@ -7,7 +7,7 @@ const Navbar = () =>{
 
     const handleSearchClick = () =>{
         Taro.navigateTo({
-            url:'/pages/search/search'
+            url:'/pages/search/index'
         });
     };
     return (

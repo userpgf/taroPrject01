@@ -1,6 +1,6 @@
 export default defineAppConfig({
   pages: [
-  'pages/index/index', "pages/contribute/index", "pages/login/index", "pages/my/index", "pages/notice/index", "pages/noticeDetail/index", "pages/content/index", "pages/search/index"],
+  'pages/index/index', "pages/contribute/index", "pages/login/index", "pages/my/index", "pages/notice/index", "pages/noticeDetail/index", "pages/content/index", "pages/search/index", "pages/searchResult/index"],
 
   window: {
     backgroundTextStyle: 'light',
