@@ -18,7 +18,7 @@ const Notice = ({ noticeList }: NoticeProps) => {
                     {
                         noticeList.map((item) => (
                             <SwiperItem key={item.pkId}>
-                                <Navigator className='noticeItem' url={`/pages/noticeDetail/noticeDetail?id=${item.pkId}`}>
+                                <Navigator className='noticeItem' url={`/pages/noticeDetail/index?id=${item.pkId}`}>
                                     {item.title}
                                 </Navigator>
                             </SwiperItem>
@@ -26,7 +26,7 @@ const Notice = ({ noticeList }: NoticeProps) => {
                     }
                 </Swiper>
             </View>
-            <Navigator url='/pages/notice/notice' className='right'>
+            <Navigator url='/pages/notice/index' className='right'>
                 <Text className='icon-right at-icon chevron-right' style={{ fontSize: '16px', color: '#333' }}>
                 </Text>
             </Navigator>

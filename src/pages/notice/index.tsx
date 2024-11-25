@@ -78,7 +78,7 @@ const Notice = () => {
                 url={`/pages/noticeDetail/index?id=${item.pkId}`}
                 className='more'
               >
-                查看详情&gt;
+                查看详情 &gt;
               </Navigator>
             </View>
           </View>

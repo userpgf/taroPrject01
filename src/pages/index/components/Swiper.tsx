@@ -18,7 +18,7 @@ const Carousel = ({ swiperList }: SwiperProps) => {
             <Swiper autoplay circular interval={3000} onChange={onChange} className='swiper'>
                 {swiperList.map((item) => (
                     <SwiperItem key={item.pkId}>
-                        <Navigator url={`/pages/noticeDetail/noticeDetail?id=${item.pkId}`}
+                        <Navigator url={`/pages/noticeDetail/index?id=${item.pkId}`}
                           className='navigator'
                         >
                             <Image mode='aspectFill' className='image' src={item.cover} />

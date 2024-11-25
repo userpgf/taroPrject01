@@ -33,7 +33,7 @@ const Panel = () => {
                   className='category-item'
                   hoverClass='none'
                   key={item.diskType}
-                  url={`/pages/searchResult/searchResult?diskType=${item.diskType}`}
+                  url={`/pages/searchResult/index?diskType=${item.diskType}`}
                 >
                     <Image className='icon' src={item.img} />
                     <Text className='text'>{item.title}</Text>

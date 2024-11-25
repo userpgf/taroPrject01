@@ -1,6 +1,17 @@
 export default defineAppConfig({
   pages: [
-  'pages/index/index', "pages/contribute/index", "pages/login/index", "pages/my/index", "pages/notice/index", "pages/noticeDetail/index", "pages/content/index", "pages/search/index", "pages/searchResult/index"],
+  'pages/index/index', "pages/contribute/index", "pages/login/index", "pages/my/index", "pages/notice/index", "pages/noticeDetail/index", "pages/content/index", "pages/search/index", "pages/searchResult/index", "pages/myResource/index", "pages/bonus/index"],
+
+  subPackages: [
+  {
+    'root': 'pageUser',
+    'pages': [
+    'userInfo/userInfo',
+    'setting/setting',
+  ]
+
+  }],
+
 
   window: {
     backgroundTextStyle: 'light',
